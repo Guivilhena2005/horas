@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 350px;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+button {
+    background: #00c6ff;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 114, 255, 0.5);
+}
+
+
+#hora-atual {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Fundo padrão */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.5s ease;
+}
+
+/* Segundo tema */
+.body-alternativo {
+    background: linear-gradient(135deg, #2b1055, #7597de);
+}
+
+/* Espaçamento entre botões */
+button {
+    margin: 10px 5px;
+}
